@@ -270,7 +270,7 @@
         /* Skills Section */
         .skills-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(2,1fr);
             gap: 2rem;
         }
 
@@ -316,7 +316,11 @@
             transition: var(--transition);
             border: 1px solid transparent;
         }
-
+        .two-column-tags{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.7rem;
+        }
         .skill-tag:hover {
             background: var(--primary);
             color: white;
@@ -839,18 +843,19 @@
                     <span class="skill-tag">HTML5</span>
                     <span class="skill-tag">CSS3</span>
                     <span class="skill-tag">JavaScript</span>
-                    <span class="skill-tag">React.js</span>
+                    <span class="skill-tag">React</span>
                     <span class="skill-tag">Tailwind CSS</span>
+                    <span class="skill-tag">Laravel</span>                    
                 </div>
             </div>
             <div class="skill-category">
                 <h3>⚙️ Backend</h3>
                 <div class="skill-tags">
                     <span class="skill-tag">PHP</span>
-                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Node</span>
                     <span class="skill-tag">MySQL</span>
                     <span class="skill-tag">SQL</span>
-                    <span class="skill-tag">PDO</span>
+                    <span class="skill-tag">PDO</span>                    
                 </div>
             </div>
             <div class="skill-category">
@@ -860,17 +865,20 @@
                     <span class="skill-tag">TensorFlow</span>
                     <span class="skill-tag">Keras</span>
                     <span class="skill-tag">WordPress</span>
-                    <span class="skill-tag">SEO</span>
+                    <span class="skill-tag">E-Commerce</span><br>                    
                 </div>
             </div>
             <div class="skill-category">
                 <h3>💼 Professional</h3>
-                <div class="skill-tags">
+                <div class="skill-tags two-column-tags">
                     <span class="skill-tag">Team Leadership</span>
                     <span class="skill-tag">Project Planning</span>
                     <span class="skill-tag">Time Management</span>
                     <span class="skill-tag">Conflict Resolution</span>
-                    <span class="skill-tag">E-Commerce</span>
+                    <span class="skill-tag">Problem-Solving</span>
+                    <span class="skill-tag">Client Communication</span>
+                    <span class="skill-tag">Problem-Solving</span>
+                    <span class="skill-tag">Client Communication</span>
                 </div>
             </div>
         </div>
@@ -905,6 +913,8 @@
                         <span class="tech-badge">MySQL</span>
                         <span class="tech-badge">JavaScript</span>
                         <span class="tech-badge">OTP Auth</span>
+                        <span class="tech-badge">Order/cart</span>
+                        <span class="tech-badge">Admin Panel</span>
                     </div>
                 </div>
             </div>
@@ -915,10 +925,10 @@
                 <div class="project-content">
                     <p class="project-description">A modern, responsive portfolio website built with pure HTML, CSS, and JavaScript. Includes dark mode toggle, smooth navigation, skills, projects, experience, education, and contact form, optimized for all devices.</p>
                     <div class="project-tech">
-                        <span class="tech-badge">Python</span>
-                        <span class="tech-badge">TensorFlow</span>
-                        <span class="tech-badge">Keras</span>
-                        <span class="tech-badge">CNN</span>
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">SEO</span>
                     </div>
                 </div>
             </div>
@@ -934,6 +944,31 @@
                         <span class="tech-badge">Keras</span>
                         <span class="tech-badge">CNN</span>
                     </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3><a href="https://nikhilpachauri.github.io/Dice-Game/">Low-Light Image Enhancement</a></h3>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">A simple two-player dice game built with basic logic and randomness. Each refresh rolls dice for both players, compares values, and instantly declares a winner or draw. Reload the page anytime to play again and enjoy a fair, fun, and completely random outcome every round.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3><a href="https://nikhilpachauri.github.io/Drum-kit/">Low-Light Image Enhancement</a></h3>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">An interactive drum kit website built using simple HTML, CSS, and JavaScript. Users can play different drum sounds by clicking buttons with a mouse or pressing specified keyboard keys. Perfect for fun, time passing, and learning basic DOM events, animations, and sound handling with JavaScript.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">JavaScript</span>
                 </div>
             </div>
         </div>
